@@ -1,0 +1,11 @@
+//Write a JavaScript program to convert temperatures to and from celsius, fahrenheit. [ Use the formula : c/5 = (f-32)/9, where c = temperature in celsius and f = temperature in fahrenheit]
+
+function temp_convert(){
+    let t = Number(prompt("Type the value"))
+    let scale = prompt("Convert from Celcius (c) or Fahrenheit (f)")
+    if(scale == "c"){ 
+        console.log( (t*1.8)+32 + " Fahrenheit")
+    } else{  console.log((t/1.8)-32 + " Celcius")
+          }}
+
+           temp_convert()
